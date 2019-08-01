@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ContactsPage from './pages/ContactsPage';
-import PortfolioPage from './pages/PortfolioPage';
+import ClientsPage from './pages/ClientsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ServicesPage from './pages/ServicesPage';
 
@@ -26,7 +26,7 @@ function App() {
           <Switch>
             <Route path="/" component={HomePage} exact />
             <Route path="/contacts" component={ContactsPage} />
-            <Route path="/portfolio" component={PortfolioPage} />
+            <Route path="/clients" component={ClientsPage} />
             <Route path="/services" component={ServicesPage} />
             <Route component={NotFoundPage} />
           </Switch>

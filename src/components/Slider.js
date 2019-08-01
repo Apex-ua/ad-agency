@@ -3,20 +3,22 @@ import Slide from './Slide'
 import styled from 'styled-components';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa'; 
 
-const Flex = styled.div`
+const ButtonsContainer = styled.div`
     display: flex;
     justify-content: center;
+    background-color: #262626;
 `;
 
 const Button = styled.button`
-    background: white;
-    color: palevioletred;
+    background: #FFF;
+    color: #262626;
     font-size: 1em;
     margin: 1em;
     width: 130px;
     padding: 0.25em 1em;
-    border: 2px solid palevioletred;
+    border: 2px solid #262626;
     border-radius: 3px;
+    cursor: pointer;
 `;
 
 class Slider extends Component {
@@ -79,7 +81,7 @@ class Slider extends Component {
       return (
             <>
                 <Slide key={slide[currentIndex].id} info={slide[currentIndex]} />
-                <Flex>
+                <ButtonsContainer>
                     <Button onClick={this.previousState}>
                       <FaArrowCircleLeft/> 
                       Previous
@@ -88,7 +90,7 @@ class Slider extends Component {
                       Next
                       <FaArrowCircleRight />
                     </Button>
-                </Flex>
+                </ButtonsContainer>
             </>
       );
     }

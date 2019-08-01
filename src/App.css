@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .App {
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;

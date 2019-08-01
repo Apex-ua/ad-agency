@@ -5,8 +5,8 @@ const Container = styled.article`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 200px;
-    flex-basis: 30%;
+    // min-width: 200px;
+    // flex-basis: 30%;
 `;
 
 const Button = styled.button`
@@ -25,14 +25,14 @@ const Image = styled.img`
 
 
 
-const ServiceCart = ( { name, imgUrl, imgAlt, desc, price, buttonOnClick } ) => {
+const ServiceCart = ( { name, imgUrl, imgAlt, desc, price } ) => {
     return ( 
         <Container>
             <h3>{name}</h3>
             <Image src={imgUrl} alt={imgAlt} />
             <p>{desc}</p>
             <p>{price}</p>
-            <Button onClick={buttonOnClick}>Add to cart</Button>
+            <Button onClick={() => this.props.AddItemToCart()}>Add to cart</Button>
         </Container>
      );
 }

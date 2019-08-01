@@ -1,0 +1,49 @@
+[
+    {    
+        "id": 1,
+        "name": "testName",
+        "imgUrl": "./img/rowdy.jpg",
+        "imgAlt": "test alt",
+        "desc": "test desc",
+        "price": 100
+    },
+    {    
+        "id": 2,
+        "name": "Second",
+        "imgUrl": "./img/rowdy.jpg",
+        "imgAlt": "second alt",
+        "desc": "second desc",
+        "price": 200
+    },
+    {    
+        "id": 3,
+        "name": "Third",
+        "imgUrl": "./img/rowdy.jpg",
+        "imgAlt": "Third alt",
+        "desc": "Third desc",
+        "price": 300
+    },    {    
+        "id": 4,
+        "name": "Four",
+        "imgUrl": "./img/rowdy.jpg",
+        "imgAlt": "test alt",
+        "desc": "test desc",
+        "price": 100
+    },
+    {    
+        "id": 5,
+        "name": "Five",
+        "imgUrl": "./img/rowdy.jpg",
+        "imgAlt": "second alt",
+        "desc": "second desc",
+        "price": 200
+    },
+    {    
+        "id": 6,
+        "name": "Six",
+        "imgUrl": "./img/rowdy.jpg",
+        "imgAlt": "Third alt",
+        "desc": "Third desc",
+        "price": 300
+    }
+]
