@@ -5,7 +5,6 @@ import { FaTwitter, FaFacebook, FaLinkedin, FaYoutube, FaInstagram } from 'react
 const Footer = styled.footer`
     background-color: #262626;
 `;
-
 const StyledUl = styled.ul`
     list-style-type: none;
     padding: 0;
@@ -25,7 +24,6 @@ const Link = styled.a`
     flex: 1 0 auto;
     text-align: center;
 `;
-
 const Copyright = styled.div`
     color: white;
 `;

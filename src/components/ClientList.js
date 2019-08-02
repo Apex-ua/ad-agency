@@ -20,7 +20,7 @@ const Card = styled.div`
     display: flex;
     align-items: center;
     position: relative;
-    min-height: 300px;
+    min-height: 200px;
     min-width: 300px;
     :hover .overlay{
         opacity: 1;
